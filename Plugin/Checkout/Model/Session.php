@@ -90,8 +90,8 @@ class Session
     /**
      * Get gift rule code.
      *
-     * @param Rule|DataRule $rule
-     * @param Quote $quote
+     * @param Rule|DataRule $rule  Rule
+     * @param Quote         $quote Quote
      * @return string
      */
     protected function getGiftRuleCode($rule, $quote)
